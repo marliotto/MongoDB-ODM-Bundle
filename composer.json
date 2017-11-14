@@ -1,5 +1,6 @@
 {
     "name": "jpc/mongodb-odm-bundle",
+    "version" : "dev",
     "type": "library",
     "require": {
         "jpc/mongodb-odm": ">=1.0"
@@ -9,5 +10,8 @@
             "name": "Joffrey Porée",
             "email": "contact@joffreyporee.com"
         }
-    ]
+    ],
+    "psr-4": {
+        "JPC\\Bundle\\MongoDBBundle": "src"
+    }
 }
