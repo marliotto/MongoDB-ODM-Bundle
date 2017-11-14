@@ -1,0 +1,13 @@
+{
+    "name": "jpc/mongodb-odm-bundle",
+    "type": "library",
+    "require": {
+        "jpc/mongodb-odm": ">=1.0"
+    },
+    "authors": [
+        {
+            "name": "Joffrey Porée",
+            "email": "contact@joffreyporee.com"
+        }
+    ]
+}

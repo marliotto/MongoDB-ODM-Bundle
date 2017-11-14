@@ -1,0 +1,6 @@
+services:
+    jpc_mongo_db.document_manager.factory:
+        class: JPC\Bundle\MongoDBBundle\Factory\DocumentManagerFactory
+    jpc_mongo_db.document_manager:
+        class: JPC\Bundle\MongoDBBundle\DocumentManager
+        factory: "jpc_mongo_db.document_manager.factory:getDocumentManager"
