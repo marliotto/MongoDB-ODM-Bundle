@@ -11,7 +11,9 @@
             "email": "contact@joffreyporee.com"
         }
     ],
-    "psr-4": {
-        "JPC\\Bundle\\MongoDBBundle": "src"
+    "autoload": {
+        "psr-4": {
+            "JPC\\Bundle\\MongoDBBundle\\": "src/"
+        }
     }
 }
